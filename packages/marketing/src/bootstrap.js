@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 
-console.log('In marketing');
 // Mount function to startup the app
 const mount = (el) => {
     ReactDOM.render(<App />, el);
